@@ -33,10 +33,7 @@ class RegistroUtenti {
         }
         return null;
     }
-    public static void stampaUtenti() {
-        for (Utente u : utenti) {
-            System.out.println("Nome: " + u.nome + " | Punteggio: " + u.punteggio + " | Bloccato: " + u.bloccato);
-        }
-    }
+    
+    
 }
 
